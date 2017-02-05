@@ -1,0 +1,53 @@
+#startPageShortcuts{
+    text-align: center;
+}
+#startPageShortcuts ul {
+    list-style: none;
+    text-align: center;
+    padding:0;
+    margin:0;
+
+}
+#image {
+    text-align: center;
+}
+#startPageShortcuts li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+
+#startPageShortcuts a {
+    text-decoration: none;
+
+}
+#startPageHeader{
+    text-align: center;
+}
+#startPageHeader ul {
+    list-style: none;
+    text-align: center;
+    padding:0;
+    margin:0;
+
+}
+#startPageHeader li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+
+}
