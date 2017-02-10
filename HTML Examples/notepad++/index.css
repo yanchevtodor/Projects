@@ -1,0 +1,13 @@
+header {
+	text-align:center;
+}
+body {
+	display:inline-flex;
+	background-color: #5bc0de;
+}
+#shortcuts {
+	display:left
+}
+section {
+	display: inline-flex;
+}

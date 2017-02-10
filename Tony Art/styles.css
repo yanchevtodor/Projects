@@ -1,3 +1,8 @@
+body{
+    width: 100%;
+    resize: both;
+    overflow: auto;
+}
 #startPageShortcuts{
     text-align: center;
 }
@@ -21,6 +26,7 @@
     height: 40px;
     display: inline-block;
     padding: 20px;
+
 }
 
 #startPageShortcuts a {
@@ -45,7 +51,7 @@
     padding: 20px;
 }
 footer{
-    position: absolute;
+
     right: 0;
     bottom: 0;
     left: 0;
