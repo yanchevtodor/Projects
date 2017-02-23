@@ -1,0 +1,26 @@
+body {
+    border: dashed;
+    height: 100%;
+}
+header {
+    text-align: center;
+
+}
+
+.middle{
+    display: inline-block;
+    border: dashed;
+    width: 55%;
+}
+.nav-bar-1 {
+    display: inline-block;
+    border: dashed;
+    width: 10%;
+    margin: 5%;
+}
+.nav-bar-2 {
+    display: inline-block;
+    border: dashed;
+    width: 10%;
+    margin: 5%;
+}

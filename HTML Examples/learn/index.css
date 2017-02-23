@@ -1,6 +1,45 @@
-div{
+body{
+
+}
+header{
+    text-align: center;
+    background-color: #5bc0de;
+    margin: 20px;
+    border-radius: 10px;
+    width: 955px;
+}
+nav{
+    display: inline-block;
+    float: left;
+    background-color: #5bc0de;
+    margin: 20px;
+    width: 10%;
+    height: 500px;
+    border-radius: 10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
+.main{
+    margin: 20px;
+    text-align: center;
     background-color: #5bc0de;
     display: inline-block;
-    width: 100px;
-
+    width: 80%;
+    max-width: 800px;
+    min-width: 415px;
+    height: 500px;
+    border-radius: 10px;
+}
+article {
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    background-color: #de3c44;
+    display: inline-block;
+    width: 20%;
+    height:200px;
 }
