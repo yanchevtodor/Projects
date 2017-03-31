@@ -1,0 +1,22 @@
+@media only screen and (max-width: 640px) {
+    body {
+        
+    }
+    .nav-primary {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .solo{
+        text-align: center;
+    }
+    .second-row {
+        display: block;
+        text-align: center;
+    }
+    .mixr-left{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}
