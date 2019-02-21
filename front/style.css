@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background: url(spaceship-pngrepo-com.png) no-repeat;
+    background-size: 70px;
+    width: 100px;
+    height: 20vh;
+    display: inline-block;
+    color: red;
+    position: relative;
+    padding: 13px 0px;
+}
+
+.containter {
+    width: 90%;
+    padding: 0px 10px;
+    display: block;
+    margin: 0 auto;
+}
+body{
+    
+}
+containter{}
+nav{
+    text-align: center;
+    height: 20vh;
+    /* background-image: linear-gradient(to right, red , yellow); */
+}
+header{}
+head_main{}
+main{}
+text{}
+hidden{}
+input{}
+header{
+    display: block;
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: 400vw;
+    -webkit-animation: slide 60s linear infinite;
+}
+
+
+@-webkit-keyframes slide {
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position:100%;
+    }
+}
+
+#logo{
+    width:575px;
+    height:200px;
+    background:url(http://f.cl.ly/items/0g3q1A203t2A2m182i1k/newbg.png);
+    -webkit-animation: slide 10s linear infinite;
+}

@@ -1,3 +1,19 @@
-#row {
-    display: table;
+
+
+main{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+#button1{
+    position: absolute;
+    bottom: 50vh;
+    left: 45vw;
+    
+}
+#row1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blue;
 }

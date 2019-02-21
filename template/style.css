@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    
+}
+.block{
+    display: grid;
+    height: 100vh;
+    
+}
+.block_1{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background: url(back.jpg);
+}
+h1{
+    
+    grid-row: 3/4;
+    grid-column: 1/4;
+    align-self: center;
+    background: gray;
+    color: transparent;
+
+}
+.block_2{
+    grid-template-columns: 1fr 1fr;
+}

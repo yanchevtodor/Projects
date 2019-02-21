@@ -1,0 +1,134 @@
+*{margin:0;padding:0;}
+
+.flex {
+    height: 200px;
+    width: 80%;
+}
+
+.header_ul li {
+    display: inline-block;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p.lorem {
+    font-size: 25px;
+}
+
+
+
+ul.header_ul {list-style: none;display: block;width: 100%;text-align: center;}
+html{
+    height: 100%
+}
+
+body{
+   
+}
+
+.content{
+    padding-top: 10vw;
+    height: 100vh;
+    margin-top: -10vw;
+    clip-path: polygon(0 0, 0 100%, 100% calc(100% - 8vw), 100% 0);
+    background: white;
+}
+
+.wrapp{
+    display: block;
+    width: 80%;
+    margin:  0 auto;
+}
+.center{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.header{    
+    margin-top: 5px;    
+    position: absolute;    
+    top: 0;    
+    width: 100%;    
+    z-index: 99999;
+}
+.header_menu{
+    
+}
+
+.main{
+    background: white;
+}
+.blockk{
+    padding-top: 10vw;
+    margin-bottom: -10vw;
+    height: 100vh;
+    clip-path: polygon(0 0, 0 100%, 100% calc(100% - 10vw), 100% 0);
+    background-color: gray;
+}
+.block_1{
+    position: relative;
+    background-color: black;
+    z-index: 333;
+    margin-top: 0;
+}
+.block_2{
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+
+
+.block_3{
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}
+
+
+.block_4{
+    position: relative;
+    background-color: white;
+    color: white;
+    height: 0;
+    z-index: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+}
+
+.block_2 .content {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.block_3 .content {
+    background: white;
+    color: black;
+}
+.block_4 .content {
+    background: black;
+    color: white;
+    height: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+}
+
+
+.block_1_img{
+    width: 11%;
+    float: left;
+}
+
+
+footer{
+    width: 100%;
+    position:  fixed;
+    bottom: 0;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    
+}

@@ -1,0 +1,28 @@
+.container{
+    display: block;
+    position: absolute;
+    margin: 200px
+}
+.container img{
+    
+    position: absolute;
+    width: 500px;
+    transform: rotate(30deg) skewX(30deg);
+    transition: 1.5s;    
+}
+.container:hover .img1{
+    
+    margin-left: 20px
+}
+.container:hover .img2{
+    
+    margin-left: 40px
+}
+.container:hover .img3{
+    
+    margin-left: 60px
+}
+.container:hover .img4{
+    
+    margin-left: 80px
+}
