@@ -157,7 +157,7 @@ input{
     width: 35%;
 }
 
-input#search {
+input[type=submit] {
     width: 100px;
     background-color: green;
     color: white;
