@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             $('#search').click(function () {
 
                     $(`#${this.dataset.search}`).onclick = function () {
-
+                        console.log(this.dataset.search)
                         $(".results").load(`Templates/results.html`);
 
 
