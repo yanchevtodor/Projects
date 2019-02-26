@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         div.onclick = function () {            
             console.log(this.dataset.search);            
             $(".serch_input").load(`Templates/${this.dataset.search}.html`)  ;
-            $('#search').onclick(function(){
+            $('#search').click(function(){
         
           $(".results").load("Templates/browse.html")         
 
