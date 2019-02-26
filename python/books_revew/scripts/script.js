@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             };
             if($(".results").is(':empty')){
-                console.cog("empty")
+                console.log("empty")
             }
             else{
                 $(".results").empty();
