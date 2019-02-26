@@ -170,7 +170,7 @@ input#search {
     margin-bottom: 10px;
 }
 
-input#register {
+input[type=submit] {
     background-color: green;
     width: 50%;
     margin: 0 auto;
