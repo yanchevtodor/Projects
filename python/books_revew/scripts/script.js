@@ -21,4 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
 function show_books() {
     $(".results").empty();
     $(".results").load("Templates/results.html");
+    console.log(this.dataset.search);
 }
