@@ -100,6 +100,7 @@ textarea
 }
 
 .title {
+    display: none;
 }
 nav {
     right: 0;
