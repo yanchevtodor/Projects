@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
         div.onclick = function () {
             
             console.log(this.dataset.search)
-            $(".section_1").load(`Templates/${this.dataset.search}.html`)
+            $(".serch_input").load(`Templates/${this.dataset.search}.html`)
             
-            console.log(`Templates/${this.dataset.search}.html`)
+            
         };
 
         
