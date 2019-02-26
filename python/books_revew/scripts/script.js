@@ -7,7 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 $(".serch_input").load(`Templates/${this.dataset.search}.html`)  ;
                 $('#search').click(function(){
 
-              $(".results").load("Templates/browse.html")         
+              $(`#${this.dataset.search}`).onclick = function () { 
+              
+                  $(".results").load(`Templates/results.html`)  ;
+                   
 
 
             });  

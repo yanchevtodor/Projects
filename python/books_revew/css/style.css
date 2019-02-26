@@ -100,6 +100,7 @@ textarea
 }
 
 .title {
+    display: none;
 }
 nav {
     right: 0;
@@ -157,7 +158,7 @@ input{
     width: 35%;
 }
 
-input[type=submit] {
+input#search {
     width: 100px;
     background-color: green;
     color: white;
