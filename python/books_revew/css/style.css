@@ -172,10 +172,10 @@ input#search {
 
 input[type=submit] {
     background-color: green;
-    width: 50%;
+    width: 200px;
     margin: 0 auto;
     color: white;
-    display: block;
+    display: inline-block;
 }
 header_main{}
 .main_header{
