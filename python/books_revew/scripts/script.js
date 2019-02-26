@@ -19,5 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function show_books() {
-    $(".results").load(`Templates/results_${this.dataset.search}.html`);
+    $(".results").load("Templates/results.html");
 }
