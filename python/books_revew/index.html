@@ -10,25 +10,6 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/jquery-1.11.0.min.js"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-
-    document.querySelectorAll('.book_serch').forEach(div => {
-//        document.querySelector('.section_1 container').append()
-        
-        
-        div.onclick = function () {
-            
-            console.log(this.dataset.search)
-            $(".section_1").load(`Templates/${this.dataset.search}.html`)
-            
-            console.log(`Templates/${this.dataset.search}.html`)
-        };
-
-        
-    });
-
-});</script>
 </head>
 
 <body>
@@ -122,20 +103,12 @@
 
             <div class="serch_input">
 
-                
-<!--
-
-                <label for="title" class="title">Title</label>
-                <input type="text" name="title" class="title">
-
-                <input type="submit" id="search" class="author"  value="Search">
--->
             </div>
        </container>
         </div>
         
         <div class="results">
-
+           
         </div>
    
    
