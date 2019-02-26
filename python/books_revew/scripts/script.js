@@ -5,14 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
         div.onclick = function () {
             console.log(this.dataset.search);
             $(".serch_input").load(`Templates/${this.dataset.search}.html`);
-            $('#search').click(function () {
-
-                    
-                });
+            
 
 
             };
-       
+            if($(".results")){
+             $(".results").empty();
+             }
 
     });
 });
