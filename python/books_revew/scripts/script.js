@@ -9,9 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             };
-            if($(".results")){
-             $(".results").empty();
-             }
+            if($(".results").is(':empty')){
+                console.cog("empty")
+            }
+            else{
+                $(".results").empty();
+            }
 
     });
 });
