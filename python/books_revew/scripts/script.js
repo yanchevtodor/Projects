@@ -7,24 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
             $(".serch_input").load(`Templates/${this.dataset.search}.html`);
             $('#search').click(function () {
 
-                    $(`#${this.dataset.search}`).onclick = function () {
-                        console.log(this.dataset.search)
-                        $(".results").load(`Templates/results.html`);
-
-
-
-                    };
+                    
                 });
 
 
             };
-
-        //    $('#search').click(function(){
-        //        
-        //          $(".results").load("Templates/browse.html")         
-        //
-        //        
-        //    });
+       
 
     });
 });
+
+
+function show_books() {
+    $(".results").load(`Templates/results_${this.dataset.search}.html`);
+}
