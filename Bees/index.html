@@ -43,14 +43,8 @@
             for (var i = 0; i < b; i++) {
                 
                 for (var j = 0; j < a; j++) {
-                    if (x==j+1 && y == i + 1) {
-                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">1</div>`;
-                    }
-                    else {
-                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${x + j-1}</div>`;
-                    }
-                    
-
+                
+                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${x - i +j}</div>`;
                 }
                 result.innerHTML += br;
                 
