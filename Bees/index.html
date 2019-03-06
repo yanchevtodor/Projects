@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пчелини</title>
+</head>
+
+<body>
+    <div class="content">
+
+        <input id="row" type="number" placeholder="Редове">
+        <input id="col" type="number" placeholder="Колони">
+        <br>
+        <input id="cor_X" type="number" placeholder="координати X">
+        <input id="cor_Y" type="number" placeholder="координати Y">
+        <input id="draw" type="submit" onclick="aaa()" placeholder="Нарисувай">
+        
+        <br>
+
+        <div id="result"></div>
+    </div>
+
+
+
+    <script>
+        
+//        var box = `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${i}</div>`;
+
+
+        function aaa() {
+            var br = "<br>"
+            var b = Number(document.getElementById("row").value);
+            var a = Number(document.getElementById("col").value);
+            
+            var x = Number(document.getElementById("cor_X").value);
+            var y = Number(document.getElementById("cor_Y").value);
+            
+            var result = document.getElementById("result");
+            
+           
+            
+            for (var i = 0; i < b; i++) {
+                
+                for (var j = 0; j < a; j++) {
+                    if (x==j+1 && y == i + 1) {
+                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">1</div>`;
+                    }
+                    else {
+                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${x + j-1}</div>`;
+                    }
+                    
+
+                }
+                result.innerHTML += br;
+                
+            }
+
+        };
+
+
+
+
+
+        let a = document.getElementById("row")
+        console.log(a)
+
+    </script>
+
+</body>
+
+</html>
