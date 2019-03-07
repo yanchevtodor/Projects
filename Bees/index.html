@@ -24,40 +24,28 @@
 
 
     <script>
-        
-//        var box = `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${i}</div>`;
-
 
         function aaa() {
-            var br = "<br>"
+            
             var b = Number(document.getElementById("row").value);
             var a = Number(document.getElementById("col").value);
             
             var x = Number(document.getElementById("cor_X").value);
             var y = Number(document.getElementById("cor_Y").value);
             
+            var br = "<br>"
             var result = document.getElementById("result");
-            
-           
-            
-            for (var i = 0; i < b; i++) {
-                
-                for (var j = 0; j < a; j++) {
-                
-                        result.innerHTML += `<div style=\"display: inline-block; width: 50px; height: 50px; background: red; margin: 10px\">${x - i +j}</div>`;
+            result.innerHTML = br;                    
+       
+            for (var i = 0; i < b; i++) {                
+                for (var j = 0; j < a; j++) {   
+                        var f = Math.max(Math.abs(i - x), Math.abs(j - y)) + 1;
+                                    
+                        result.innerHTML += `<div style=\"display: inline-block; text-align: center; color: white; font-size:47px; width: 50px; height: 50px; background: black; margin: 10px\">${f}</div>`;
                 }
-                result.innerHTML += br;
-                
+                result.innerHTML += br;                
             }
-
         };
-
-
-
-
-
-        let a = document.getElementById("row")
-        console.log(a)
 
     </script>
 
