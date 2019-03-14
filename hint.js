@@ -1,13 +1,13 @@
-function remove_cell(rows, cols){
+function remove_cell(rows, cols, target){
     var counter = 1
     let matrix = [];
-    for(var i=0; i < rows; i++) {
+    for(var row=0; row < rows; row++) {
         matrix.push([]);
     }
     for (var row = 0; row < rows; row++) {
         for (var col = 0; col < cols; col++) {   
 
-                if(counter == 5){
+                if(counter == target){
                     matrix[row][col]= 0;
                     counter++
                 }
@@ -24,4 +24,4 @@ function remove_cell(rows, cols){
     }
     console.log(matrix)
 }
-remove_cell(3,3)
+remove_cell(3, 3, 5)
